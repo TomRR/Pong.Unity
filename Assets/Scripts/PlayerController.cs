@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed;
+    private float speed = 300;
     public string playerInput;
 
     void FixedUpdate()
